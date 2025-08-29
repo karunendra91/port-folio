@@ -16,19 +16,12 @@ Hello! I'm a passionate **Full-Stack Developer** with expertise in **HTML**, **C
 
 ---
 
-
-
-
-
----
-
 ##  How to Connect
 
 Let's collaborate or chat tech:
 
--  GitHub: 
 -  LinkedIn: https://www.linkedin.com/in/https://www.linkedin.com/in/karunendra-patel-188250256
--  Portfolio: [YourPortfolioLink.com]
+
 
 ---
 
