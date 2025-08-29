@@ -16,6 +16,13 @@
   });
 
 
+new Typed('.typing-text', {
+    strings: ['Web Developer', 'Frontend Developer', 'Backend Developer', 'Full Stack Developer'],
+    typespeed: 70,
+      backspeed: 60,
+      backdelay: 1500,
+    loop: true, 
+});
 
 
 

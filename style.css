@@ -10,7 +10,10 @@
   border: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
-  
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
 }
 html {
   font-size: 62.5%;
@@ -80,12 +83,18 @@ header .logo {
   font-weight: 800;
   text-decoration: none;
   color: #0e2431;
+  
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
   color: rgb(115, 3, 167);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
 }
 header .navbar ul {
   list-style: none;
@@ -197,6 +206,8 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
 }
+
+
 .home::before {
   content: "";
   position: absolute;
@@ -220,10 +231,10 @@ header .navbar ul li a:hover {
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -319,15 +330,15 @@ header .navbar ul li a:hover {
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition:;
-  -o-transition:;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
-  -moz-transition:;
-  -ms-transition:;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
 }
 .social-icons a:active,
 .social-icons a:focus,
@@ -491,8 +502,8 @@ header .navbar ul li a:hover {
     margin-top: 2rem;
   }
   .about .row .image img {
-    margin: 0 auto;
-    width: 60%;
+    margin: 20px auto;
+    width: 70%;
     mix-blend-mode: normal;
   }
   .about .row {
@@ -677,10 +688,10 @@ header .navbar ul li a:hover {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 .skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
